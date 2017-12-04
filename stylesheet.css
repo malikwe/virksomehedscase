@@ -1,0 +1,145 @@
+/*********** Overordnet ***********/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue';
+}
+
+a {
+    text-decoration: none;
+
+}
+
+footer {
+    margin: 0 auto;
+    max-width: 1080px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    font-size: 1em;
+    border-top: 1px solid #ccc;
+}
+
+#logo {
+    margin: 35px auto 0px auto;
+    background-image: url(img/logohvid.svg);
+    background-size: 100% 100%;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    right: 0;
+}
+
+section {
+    padding: 0 20px 0 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.7em;
+    text-transform: uppercase;
+
+}
+
+h2 {
+    margin: 0 auto 20px auto;
+    max-width: 1080px;
+
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*********** Gruppe ***********/
+
+#group .column {
+    flex-basis: 320px;
+    flex-grow: 1;
+    padding-bottom: 20px;
+}
+
+.person {
+    display: flex;
+}
+
+.personbillede {}
+
+.personbillede img {
+    width: 60px;
+    margin: 6px 0 6px 0;
+    border-radius: 50%;
+}
+
+.persontekst {}
+
+.persontekst p {
+    line-height: 72px;
+    font-size: 1.3em;
+    padding: 0 0 0 15px;
+    margin: 0;
+}
+
+.links ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+
+.links li {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+/*********** Empathize ***********/
+
+/*********** Ide ***********/
+
+#ideate .column {
+    flex-basis: 1080px;
+    flex-grow: 1;
+    margin: 0 0 20px 0;
+}
+
+.ide {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.ide_indhold {
+    flex-grow: 1;
+    flex-basis: 360px;
+}
+
+.ide_indhold img {
+    width: 100%;
+}
+
+.ide_indhold p {
+    padding-right: 30px;
+    line-height: 1.4;
+}
+
+
+/*********** Scrum ***********/
+
+.scrumcontainer {
+    width: 1080px;
+    margin: 0 auto;
+
+    border-top: 1px solid #ccc;
+}
+
+#scrum img {
+    width: 500px;
+    height: 330px;
+    margin-bottom: 20px;
+}
