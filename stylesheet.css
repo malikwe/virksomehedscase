@@ -139,6 +139,12 @@ h2 {
 
 /*********** Scrum ***********/
 
+.arrow {
+    position: absolute;
+    margin-top: -50px;
+    width: 40px;
+}
+
 .scrumcontainer {
     max-width: 1080px;
     margin: 0 auto;
