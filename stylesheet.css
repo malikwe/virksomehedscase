@@ -8,7 +8,11 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
+}
 
+a:hover {
+    color: blue;
 }
 
 footer {
@@ -87,16 +91,22 @@ h2 {
     margin: 0;
 }
 
-.links ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0;
+.link {
+    display: flex;
 }
 
-.links li {
-    margin-bottom: 10px;
-    font-size: 1.3em;
+.linkbillede img {
+    width: 50px;
+    margin: 6px 0 6px 0;
 }
+
+.linktekst p {
+    line-height: 62px;
+    font-size: 1.3em;
+    padding: 0 0 0 15px;
+    margin: 0;
+}
+
 
 /*********** Ide ***********/
 
@@ -130,14 +140,27 @@ h2 {
 /*********** Scrum ***********/
 
 .scrumcontainer {
-    width: 1080px;
+    max-width: 1080px;
     margin: 0 auto;
 
     border-top: 1px solid #ccc;
 }
 
-#scrum img {
-    width: 500px;
-    height: 330px;
-    margin-bottom: 20px;
+.videocontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dag {
+    flex-basis: 520px;
+    flex-grow: 1;
+}
+
+.dag video {
+    width: 530px;
+    height: 397px;
+}
+
+.first {
+    margin-right: 20px;
 }
