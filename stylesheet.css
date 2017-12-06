@@ -76,7 +76,43 @@ p {
 
     display: flex;
     flex-wrap: wrap;
+
 }
+
+/********* Sections ***********/
+
+#empathize h2 {
+    border-top: 6px solid #F9EAA4;
+}
+
+#define h2 {
+    border-top: 6px solid #AEBFCD;
+}
+
+#ideate h2 {
+    border-top: 6px solid #D47778;
+}
+
+#prototype h2 {
+    border-top: 6px solid #2C3562;
+}
+
+#test h2 {
+    border-top: 6px solid #599EA1;
+}
+
+#design h2 {
+    border-top: 6px solid #F9EAA4;
+}
+
+#endeligide h2 {
+    border-top: 6px solid #AEBFCD;
+}
+
+#presentation h2 {
+    border-top: 6px solid #D47778;
+}
+
 
 /*********** Gruppe ***********/
 
@@ -274,10 +310,6 @@ p {
 }
 
 /********* Collapse Interview ********/
-
-.topheader {
-    margin-bottom: 5px;
-}
 
 .collapse-list {
     margin: 20px 0 0 0;
