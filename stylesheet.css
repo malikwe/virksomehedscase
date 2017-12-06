@@ -66,6 +66,10 @@ h4 {
     margin: 0 0 10px 0;
 }
 
+p {
+    line-height: 1.4em;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1080px;
@@ -231,12 +235,42 @@ h4 {
     }
 }
 
+
 /********* Emphathize *********/
 
 /********* Experience map *********/
 
 .experience img {
-    max-width: 540px;
+    max-width: 90%;
+}
+
+.experience .wrapper {
+    max-width: 1080px;
+}
+
+.experience a {
+    line-height: 1.5em;
+    text-decoration: underline;
+}
+
+.experience a:hover {
+    cursor: pointer;
+}
+
+.experience a > div {
+    display: none;
+}
+
+.experience a:hover > div {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: -15px;
+}
+
+#empathize .container {
+    margin-bottom: 20px;
 }
 
 /********* Collapse Interview ********/
@@ -251,7 +285,7 @@ h4 {
     width: 100%;
     list-style: none;
     border-bottom: 1px solid #e0e0e0;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .collapse-open {
@@ -309,9 +343,10 @@ label {
 
 .collapse-list .collapse-inner {
     padding: 10px 20px 20px 20px;
+    background-color: #f3f3f3;
 }
 
 .collapse-inner p {
-    margin: 0;
+    margin: 20 0 0 0;
     padding: 0;
 }
