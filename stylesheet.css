@@ -35,6 +35,10 @@ footer {
     right: 0;
 }
 
+#logo:hover {
+    background-image: url(img/logoblaa.svg);
+}
+
 section {
     padding: 0 20px 0 20px;
 }
@@ -52,6 +56,14 @@ h2 {
 
     border-top: 1px solid #ccc;
     padding-top: 20px;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    margin: 0 0 10px 0;
 }
 
 .container {
@@ -86,7 +98,7 @@ h2 {
 
 .persontekst p {
     line-height: 72px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 0 0 0 15px;
     margin: 0;
 }
@@ -102,7 +114,7 @@ h2 {
 
 .linktekst p {
     line-height: 62px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 0 0 0 15px;
     margin: 0;
 }
@@ -141,13 +153,14 @@ h2 {
 
 .arrow {
     position: absolute;
-    margin-top: -55px;
-    width: 40px;
+    margin-top: -50px;
+    margin-left: 10px;
+    width: 35px;
 }
 
 .scrumcontainer {
     max-width: 1080px;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
 
     border-top: 1px solid #ccc;
 }
@@ -216,5 +229,89 @@ h2 {
         width: 100%;
         height: auto;
     }
+}
 
+/********* Emphathize *********/
+
+/********* Experience map *********/
+
+.experience img {
+    max-width: 540px;
+}
+
+/********* Collapse Interview ********/
+
+.topheader {
+    margin-bottom: 5px;
+}
+
+.collapse-list {
+    margin: 20px 0 0 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.collapse-open {
+    display: none;
+}
+
+.collapse-painel {
+    visibility: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height .1s,
+    visibility .3s,
+    opacity .3s;
+}
+
+.collapse-open:checked ~ .collapse-painel {
+    max-height: 100%;
+    opacity: 100;
+    visibility: visible
+}
+
+.collapse-list li {
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-size: 1.1em;
+}
+
+.collapse-list .collapse-btn {
+    border-top: 1px solid #e0e0e0;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 0;
+    color: black;
+    font-weight: normal;
+    padding: 15px 0px 15px 0px;
+    transition: background-color .2s ease;
+}
+
+.collapse-list .collapse-btn:hover {
+    color: blue;
+}
+
+.collapse-open ~ .collapse-btn:before {
+    content: "▾";
+    float: right;
+}
+
+.collapse-open:checked ~ .collapse-btn:before {
+    content: "▾";
+    transform: rotate(180deg);
+}
+
+.collapse-list .collapse-inner {
+    padding: 10px 20px 20px 20px;
+}
+
+.collapse-inner p {
+    margin: 0;
+    padding: 0;
 }
