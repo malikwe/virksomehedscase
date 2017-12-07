@@ -81,6 +81,7 @@ p {
 
 /********* Sections ***********/
 
+/*
 #empathize h2 {
     border-top: 6px solid #F9EAA4;
 }
@@ -112,7 +113,7 @@ p {
 #presentation h2 {
     border-top: 6px solid #D47778;
 }
-
+*/
 
 /*********** Gruppe ***********/
 
@@ -186,6 +187,10 @@ p {
 .ide_indhold p {
     padding-right: 30px;
     line-height: 1.4;
+}
+
+.luft {
+    padding-top: 20px;
 }
 
 
@@ -308,6 +313,7 @@ p {
 #empathize .container {
     margin-bottom: 20px;
 }
+
 
 /********* Collapse Interview ********/
 
