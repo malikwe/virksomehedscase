@@ -414,7 +414,7 @@ label {
     padding-bottom: 56.25%;
 }
 
-.wrapper {
+#test .wrapper {
     max-width: 1080px;
     margin: 20px auto;
 }
