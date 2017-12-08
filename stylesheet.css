@@ -46,7 +46,7 @@ section {
 
 h1 {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.8em;
     text-transform: uppercase;
 
 }
@@ -208,8 +208,8 @@ p {
 
 .arrow {
     position: absolute;
-    margin-top: -50px;
-    margin-left: 10px;
+    margin-top: -60px;
+    margin-left: 20px;
     width: 35px;
 }
 
@@ -217,7 +217,7 @@ p {
     max-width: 1080px;
     margin: 0 auto 20px auto;
 
-    border-top: 1px solid #ccc;
+    border-top: 85px solid #eee;
 }
 
 .videocontainer {
@@ -397,4 +397,24 @@ label {
 .collapse-inner p {
     margin: 20 0 0 0;
     padding: 0;
+}
+
+
+/********** Test af prototype ********/
+
+.hs-responsive-embed-youtube iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.hs-responsive-embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.wrapper {
+    max-width: 1080px;
+    margin: 20px auto;
 }
