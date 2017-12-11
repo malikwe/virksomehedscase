@@ -10,6 +10,21 @@
 </head>
 
 <body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="#group" class="active">Gruppe</a>
+        <a href="#empathize">Empathize</a>
+        <a href="#define">Define</a>
+        <a href="#ideate">Ideate</a>
+        <a href="#test">Test</a>
+        <a href="#endeligide">Endelig idé</a>
+        <a href="#design">Design</a>
+        <a href="#usability">Usability test</a>
+        <a href="#presentation">Link til præsentation af App</a>
+
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
     <a href="index.html">
         <div id="logo"></div>
     </a>
@@ -610,7 +625,16 @@
 
 
     <footer>KEA - Københavns Erhvervsakademi</footer>
-
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </body>
 
 </html>
