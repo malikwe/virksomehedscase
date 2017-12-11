@@ -188,6 +188,16 @@ p {
 .ide_indhold {
     flex-grow: 1;
     flex-basis: 360px;
+    margin-bottom: 20px;
+}
+
+.ide_indhold a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.ide_indhold a:hover {
+    color: black;
 }
 
 .ide_indhold img {
