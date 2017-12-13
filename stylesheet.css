@@ -519,5 +519,18 @@ label {
         display: block;
         text-align: left;
     }
+}
 
+.styletile {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.styletile img {
+    width: 100%;
+}
+
+#design a {
+    color: blue;
+    text-decoration: underline;
 }
