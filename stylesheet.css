@@ -456,6 +456,11 @@ label {
     margin: 20px auto;
 }
 
+#usability .wrapper {
+    max-width: 1080px;
+    margin: 20px auto;
+}
+
 
 /********* Menu ***********/
 
