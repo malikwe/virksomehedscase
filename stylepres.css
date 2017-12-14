@@ -164,3 +164,15 @@ h2 {
     background-color: #fafafa;
     border-radius: 20px;
 }
+
+#psite2 a {
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin: 0 auto 0px auto;
+}
+
+#psite2 a:hover {
+    text-decoration: underline;
+}
