@@ -86,7 +86,8 @@ body {
 
 h2 {
     font-size: 2em;
-    background-color: #d6d6d6;
+    color: white;
+    text-align: center;
     line-height: 2em;
     text-indent: 10px;
 }
@@ -153,4 +154,25 @@ h2 {
     top: 4%;
     width: 91%;
     height: 91%;
+}
+
+#psite2 video {
+    display: block;
+    margin: 50px auto 90px auto;
+    max-width: 900px;
+    padding: 40px 40px 20px 40px;
+    background-color: #fafafa;
+    border-radius: 20px;
+}
+
+#psite2 a {
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin: 0 auto 0px auto;
+}
+
+#psite2 a:hover {
+    text-decoration: underline;
 }
